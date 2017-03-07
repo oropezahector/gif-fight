@@ -1,0 +1,21 @@
+body{
+	background-size: cover;
+	color:#fff;
+	background-image: url('https://media.giphy.com/media/gfSYIX7DpnIWc/giphy.gif');
+}
+header, #battle-area{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+#fixed{
+	position: fixed;
+	bottom:0;
+	right:50px;
+	text-align: right;
+}
+.player{
+	background-size: 150%;
+}
+.health{
+	font-weight: 700;
+	font-size: 2em;
+}

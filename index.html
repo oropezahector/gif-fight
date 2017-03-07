@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gif Battle!!</title>
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="js/game.js"></script>
+</head>
+<body>
+	
+		<section class="container">
+			<div class="row">
+				<!-- Battle Area -->
+				<div class="col-md-12" id="battle-area">	
+					<div class="row">
+
+						<!-- Fighter Group One -->
+						<div class="col-md-6">
+	
+							<div class="col-md-2 user player">
+								<img src="images/player.png" class="img-responsive">
+							</div>
+							<div class="col-md-2 user player">
+								<img src="images/player.png" class="img-responsive">
+							</div>
+							<div class="col-md-2 user player">
+								<img src="images/player.png" class="img-responsive">
+							</div>
+							<div class="col-md-10 health">
+								Health %
+							</div>
+							
+						</div>
+						<!-- Fighter Group One -->
+
+						<!-- Fighter Group Two -->
+						<div class="col-md-6">
+						
+							<div class="col-md-10 health">
+								Health %
+							</div>
+							<div class="col-md-2 player" id="current-oponent hide">
+								<img src="images/player.png" class="img-responsive">
+							</div>
+							
+						</div>
+						<!-- Fighter Group Two -->
+					</div>
+				</div>
+				<!-- End Battle Area -->
+			</div>
+		</section>
+	
+		
+		<div id="fixed">
+			<h1>#GifBattle</h1>
+		</div>
+
+
+</body>
+</html>
