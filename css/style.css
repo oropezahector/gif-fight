@@ -12,8 +12,8 @@ header, #battle-area{
 	right:50px;
 	text-align: right;
 }
-.player{
-	background-size: 150%;
+.user{
+	background-size: cover;
 }
 .health{
 	font-weight: 700;
